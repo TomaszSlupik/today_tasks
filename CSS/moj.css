@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: gray;
+}
+
+section {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.box {
+	width: 400px;
+	height: 300px;
+	background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.today {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+button,
+.text {
+	margin-top: 10px;
+}
